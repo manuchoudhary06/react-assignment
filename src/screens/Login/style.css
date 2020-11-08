@@ -1,0 +1,48 @@
+.root {
+	min-height: 100vh;
+}
+
+.login-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10%;
+	padding: 16px;
+	flex-direction: column;
+}
+
+.login-container form {
+	max-width: 300px
+}
+
+.login-container form label {
+	display: block;
+	margin-top: 10px
+}
+
+.login-container input {
+	margin-top: 5px;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: #333;
+}
+
+.login-container form button {
+	width: 323px;
+    padding: 5px;
+    margin-top: 16px;
+    max-width: 100%;
+    background: #e20dc6;
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+@media (max-width: 310px) {
+	.login-container form button {
+		width: 200px
+	}
+}
